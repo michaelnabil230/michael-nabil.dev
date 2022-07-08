@@ -16,7 +16,7 @@ jobs:
         run: composer install -a --no-ansi --no-interaction -no-scripts --no-progress --prefer-dist
 
       - name: Run Pint
-        run: ./vendor/bin/pint
+        run: composer fix-style
       
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
