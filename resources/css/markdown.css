@@ -1,0 +1,57 @@
+.markdown>*+* {
+    @apply mt-6;
+}
+
+.markdown {
+    @apply text-gray-700 text-lg leading-relaxed;
+}
+
+.markdown h1 {
+    @apply text-3xl font-bold text-gray-900 leading-tight;
+}
+
+.markdown h2 {
+    @apply text-2xl font-bold text-gray-900 leading-tight;
+}
+
+.markdown h3 {
+    @apply text-xl font-bold text-gray-900 leading-tight;
+}
+
+.markdown a:not(.unstyled) {
+    @apply text-gray-900 font-semibold border-b border-dotted border-gray-600;
+}
+
+.markdown a:not(.unstyled):hover, .markdown a:not(.unstyled):focus {
+    @apply text-blue-700;
+}
+
+.markdown blockquote {
+    @apply border-gray-300 border-l-4 font-normal italic my-8 pl-6 text-gray-600 text-lg;
+}
+
+.markdown ul {
+    @apply list-disc ml-8;
+}
+
+.markdown ol {
+    @apply list-decimal ml-8;
+}
+
+.markdown strong {
+    @apply font-semibold;
+}
+
+.markdown code:not(.hljs) {
+    @apply px-2 py-1 bg-gray-300 text-blue-700 rounded text-sm;
+}
+
+.markdown code.hljs {
+    @apply p-4 rounded shadow-lg text-sm leading-loose;
+}
+
+@screen md {
+    .markdown code.hljs {
+        @apply text-base;
+    }
+}

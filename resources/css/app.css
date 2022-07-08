@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.linkedin:hover {
+    color: #0A66C2;
+}
+
+.twitter:hover {
+    color: #1D9BF0;
+}
+
+.github:hover {
+    color: #211F1F;
+}
