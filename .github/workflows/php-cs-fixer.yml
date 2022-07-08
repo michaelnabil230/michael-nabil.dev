@@ -13,7 +13,7 @@ jobs:
           ref: ${{ github.head_ref }}
 
       - name: Install Dependencies
-        run: composer install -a --no-ansi --no-interaction -no-scripts --no-progress --prefer-dist
+        run: composer install -a --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
 
       - name: Run Pint
         run: composer fix-style
