@@ -3,7 +3,7 @@ name: Check & fix styling
 on: push
 
 jobs:
-  php-cs-fixer:
+  pint:
     runs-on: ubuntu-latest
 
     steps:
@@ -12,12 +12,18 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
 
-      - name: Install Dependencies
-        run: composer install -a --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.1'
+          coverage: none
+
+      - name: Install Pint
+        run: composer global require laravel/pint
 
       - name: Run Pint
-        run: composer fix-style
-      
+        run: pint
+
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
