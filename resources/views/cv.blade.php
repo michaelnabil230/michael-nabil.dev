@@ -21,14 +21,14 @@
                     </a>
 
                     <p class="mt-2 text-lg text-blue-800">
-                        Senior Web Application Developer
+                        Senior Web Application and mobile Developer
                     </p>
 
                     <p class="mt-4">
-                        A proficient and passionate back-end developer, open-source contributor, troubleshooter, and
-                        co-founder
-                        &ndash; with over 7 years of professional experience. Currently specializing in Laravel, Vue.js, and
-                        Tailwind CSS.
+                        A proficient and passionate full-stack developer, open-source contributor, troubleshooter, and 
+                        mobile developer 
+                        &ndash; with over 5 years of professional experience. Currently specialized in Laravel, Vue.js, 
+                        Tailwind CSS, and Flutter.
                     </p>
                 </div>
 
@@ -65,7 +65,6 @@
                         </svg>
                         <span class="ml-2 border-b border-dotted border-transparent group-hover:border-blue-500">
                             +20 120 0954 866
-                            <small class="font-normal print:hidden">(Whatsapp only)</small>
                         </span>
                     </a>
                 </li>
@@ -221,7 +220,14 @@
 
                 <li class="m-1 px-3 py-1 inline-flex items-center bg-blue-100 text-blue-800 rounded">Open-source</li>
 
-                <li class="m-1 px-3 py-1 inline-flex items-center bg-blue-100 text-blue-800 rounded">CI/CD</li>
+                <li class="m-1 px-3 py-1 inline-flex items-center bg-blue-100 text-blue-800 rounded">OOP</li>
+
+                <li class="m-1 px-3 py-1 inline-flex items-center bg-blue-100 text-blue-800 rounded">Solid principles</li>
+
+                <li class="m-1 px-3 py-1 inline-flex items-center bg-blue-100 text-blue-800 rounded">MVC</li>
+
+                <li class="m-1 px-3 py-1 inline-flex items-center bg-blue-100 text-blue-800 rounded">Unit testing</li>
+
             </ul>
         </div>
 
@@ -244,7 +250,7 @@
             </div>
 
             <div class="mt-2 sm:mt-0 sm:ml-6">
-                <p class="text-lg font-bold">Co-founder and Lead Developer</p>
+                <p class="text-lg font-bold">Team Leader Developer</p>
                 <p>
                     <a class="text-blue-700 font-semibold" href="https://shaghf.sa" target="_blank">
                         Shaghf.sa
@@ -256,6 +262,7 @@
                         Set up of CI/CD pipelines with linting, static analysis, and test stages, with deployment to staging
                         and production instances on Contabo.
                     </li>
+                    <li>Software integrations.</li>
                     <li>Development of a Nuxt.js with Laravel API.</li>
                 </ul>
             </div>
@@ -271,33 +278,6 @@
                     <span class="inline sm:block">2021</span>
                     <span class="hidden sm:inline">|</span>
                     <span class="sm:hidden">&mdash;</span>
-                    <span class="inline sm:block">2020</span>
-                </div>
-            </div>
-
-            <div class="mt-2 sm:mt-0 sm:ml-6">
-                <p class="text-lg font-bold">Senior Web Developer</p>
-                <p>
-                    <a class="text-blue-700 font-semibold" href="https://sofate.net" target="_blank">
-                        Sofate.net
-                    </a>
-                </p>
-                <ul class="mt-3 pl-4 list-disc">
-                    <li>Back-end web development.</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="mt-6 sm:flex">
-            <div
-                class="
-                    inline-block p-2 bg-blue-100 rounded-lg text-blue-700 font-bold text-center leading-none tracking-wide
-                    sm:h-24 sm:w-20 sm:p-0 sm:flex-shrink-0 sm:flex sm:items-center sm:justify-center sm:text-lg
-                ">
-                <div>
-                    <span class="inline sm:block">2020</span>
-                    <span class="hidden sm:inline">|</span>
-                    <span class="sm:hidden">&mdash;</span>
                     <span class="inline sm:block">2019</span>
                 </div>
             </div>
@@ -311,6 +291,7 @@
                 </p>
                 <ul class="mt-3 pl-4 list-disc">
                     <li>Back-end web development.</li>
+                    <li>Software integrations.</li>
                 </ul>
             </div>
         </div>
@@ -325,7 +306,7 @@
                     <span class="inline sm:block">2019</span>
                     <span class="hidden sm:inline">|</span>
                     <span class="sm:hidden">&mdash;</span>
-                    <span class="inline sm:block">2017</span>
+                    <span class="inline sm:block">2018</span>
                 </div>
             </div>
 
@@ -346,7 +327,7 @@
             </div>
         </div>
 
-        <hr class="mt-6 border-gray-300" />
+        {{-- <hr class="mt-6 border-gray-300" />
 
         <h2 class="mt-6 text-xl uppercase tracking-wide">Awards</h2>
 
@@ -404,6 +385,6 @@
                     <div class="text-sm">2015 &bullet; Infoxchange</div>
                 </div>
             </div>
-        </div>
+        </div> --}}
     </div>
 @endsection

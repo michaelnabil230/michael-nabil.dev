@@ -3,29 +3,32 @@
 @section('body')
     <div class="p-6 flex items-center justify-center min-h-screen">
         <div class="md:flex">
-            <img src="{{ asset('images/michael-nabil.jpeg') }}" alt="Michael Nabil"
-                class="
-                h-24 w-24 flex-shrink-0 rounded-full border border-gray-400
-                md:h-32 md:w-32
-            " />
+            <div
+                class="h-32 w-32 md:64 md:64 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full overflow-hidden shadow-lg">
+                <img src="{{ asset('images/michael-nabil.jpeg') }}" alt="Michael Nabil"
+                    class="h-32 w-32 flex-shrink-0 rounded-full p-2" />
+            </div>
 
             <div class="mt-6 md:ml-6 md:mt-0">
-                <h1 class="text-gray-800 text-2xl font-bold uppercase">
+
+                <h1
+                    class="text-transparent text-2xl font-bold uppercase bg-clip-text bg-gradient-to-r from-blue-400 to-blue-600">
                     Michael Nabil
                 </h1>
 
-                <div class="mt-6 max-w-2xl">
+                <div class="mt-2 max-w-2xl">
                     <div class="markdown">
                         <p>
                             <strong>
-                                Hi there, I'm Michael Nabil&mdash;a full-stack web application with over 7 years
+                                Hi there, I'm Michael Nabil&mdash;a full-stack web application and mobile developer with
+                                over 5 years
                                 professional experience.
                             </strong>
                         </p>
                         <p>
                             I am passionate about open-source software, privacy, best practices, standards,
                             idiomatic code, user experience, and developer experience.
-                            My favorite stack these days is Laravel, Vue, and Tailwind.
+                            My favorite stack these days is Laravel, Vue.js, Tailwind CSS, and Flutter.
                         </p>
 
                         <p>
