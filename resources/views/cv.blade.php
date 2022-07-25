@@ -27,7 +27,7 @@
                     <p class="mt-4">
                         A proficient and passionate full-stack developer, open-source contributor, troubleshooter, and
                         mobile developer
-                        &ndash; with over 5 years of professional experience. Currently specialized in Laravel, Vue.js,
+                        &ndash; with over 6 years of professional experience. Currently specialized in Laravel, Vue.js,
                         Tailwind CSS, and Flutter.
                     </p>
                 </div>

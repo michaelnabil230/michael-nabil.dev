@@ -22,7 +22,7 @@
                             <strong>
                                 Hi there, I'm Michael Nabil Rezk Senada&mdash;a full-stack web application and mobile
                                 developer with
-                                over 5 years
+                                over 6 years
                                 professional experience.
                             </strong>
                         </p>

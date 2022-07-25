@@ -12,7 +12,7 @@
                 <div class="mt-4 sm:mt-0 sm:flex-grow">
                     <div class="markdown max-w-2xl text-base">
                         <p>
-                            Hi there, I'm Michael Nabil Rezk Senada&mdash;a full-stack web application with over 5 years
+                            Hi there, I'm Michael Nabil Rezk Senada&mdash;a full-stack web application with over 6 years
                             professional experience.
                             You can learn more about me on my <a href="{{ route('welcome') }}">home page</a>.
                         </p>
