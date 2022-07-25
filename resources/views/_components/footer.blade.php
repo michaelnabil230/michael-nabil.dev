@@ -2,7 +2,7 @@
     <div class="max-w-4xl mx-auto px-6 py-6 md:py-12">
         <div class="flex-auto w-full max-w-4xl mx-auto">
             <div class="sm:flex">
-                <img src="{{ asset('images/michael-nabil.jpeg') }}" alt="Photo of Michael Nabil"
+                <img src="{{ asset('images/michael-nabil.jpeg') }}" alt="Photo of Michael Nabil Rezk Senada"
                     class="
                         flex-shrink-0 h-24 w-24 rounded-full bg-contain
                         sm:mr-6
@@ -12,7 +12,7 @@
                 <div class="mt-4 sm:mt-0 sm:flex-grow">
                     <div class="markdown max-w-2xl text-base">
                         <p>
-                            Hi there, I'm Michael Nabil&mdash;a full-stack web application with over 5 years
+                            Hi there, I'm Michael Nabil Rezk Senada&mdash;a full-stack web application with over 5 years
                             professional experience.
                             You can learn more about me on my <a href="{{ route('welcome') }}">home page</a>.
                         </p>

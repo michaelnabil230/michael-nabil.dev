@@ -5,7 +5,7 @@
         <div class="md:flex">
             <div
                 class="h-32 w-32 md:64 md:64 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full overflow-hidden shadow-lg">
-                <img src="{{ asset('images/michael-nabil.jpeg') }}" alt="Michael Nabil"
+                <img src="{{ asset('images/michael-nabil.jpeg') }}" alt="Michael Nabil Rezk Senada"
                     class="h-32 w-32 flex-shrink-0 rounded-full p-2" />
             </div>
 
@@ -13,14 +13,15 @@
 
                 <h1
                     class="text-transparent text-2xl font-bold uppercase bg-clip-text bg-gradient-to-r from-blue-400 to-blue-600">
-                    Michael Nabil
+                    Michael Nabil Rezk Senada
                 </h1>
 
                 <div class="mt-2 max-w-2xl">
                     <div class="markdown">
                         <p>
                             <strong>
-                                Hi there, I'm Michael Nabil&mdash;a full-stack web application and mobile developer with
+                                Hi there, I'm Michael Nabil Rezk Senada&mdash;a full-stack web application and mobile
+                                developer with
                                 over 5 years
                                 professional experience.
                             </strong>

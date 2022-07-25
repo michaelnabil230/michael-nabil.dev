@@ -3,7 +3,7 @@
         <div class="flex-1 px-6 flex items-center justify-between md:px-0">
             <a href="{{ route('welcome') }}">
                 <h1 class="text-gray-800 text-2xl font-bold uppercase whitespace-no-wrap">
-                    Michael Nabil
+                    Michael Nabil Rezk Senada
                 </h1>
             </a>
 

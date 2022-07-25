@@ -9,14 +9,14 @@
 @section('body')
     <div class="max-w-4xl mx-auto p-6 print:p-0 print:max-w-none">
         <header role="banner">
-            <img src="{{ asset('images/michael-nabil.jpeg') }}" alt="Photo of Michael Nabil"
+            <img src="{{ asset('images/michael-nabil.jpeg') }}" alt="Photo of Michael Nabil Rezk Senada"
                 class="sm:hidden h-20 w-20 rounded-full bg-contain">
 
             <div class="mt-4 sm:mt-0 flex justify-between">
                 <div>
                     <a href="{{ route('welcome') }}">
                         <h1 class="text-gray-800 text-2xl font-bold uppercase whitespace-no-wrap">
-                            Michael Nabil
+                            Michael Nabil Rezk Senada
                         </h1>
                     </a>
 
@@ -25,14 +25,14 @@
                     </p>
 
                     <p class="mt-4">
-                        A proficient and passionate full-stack developer, open-source contributor, troubleshooter, and 
-                        mobile developer 
-                        &ndash; with over 5 years of professional experience. Currently specialized in Laravel, Vue.js, 
+                        A proficient and passionate full-stack developer, open-source contributor, troubleshooter, and
+                        mobile developer
+                        &ndash; with over 5 years of professional experience. Currently specialized in Laravel, Vue.js,
                         Tailwind CSS, and Flutter.
                     </p>
                 </div>
 
-                <img src="{{ asset('images/michael-nabil.jpeg') }}" alt="Photo of Michael Nabil"
+                <img src="{{ asset('images/michael-nabil.jpeg') }}" alt="Photo of Michael Nabil Rezk Senada"
                     class="hidden sm:block ml-4 flex-shrink-0 h-24 w-24 rounded-full bg-contain">
             </div>
         </header>
@@ -49,7 +49,7 @@
                         </svg>
                         <span class="ml-2">
                             Egypt, Cairo
-                            <small class="font-normal print:hidden">(GMT +2)</small>
+                            <small class="font-normal">(GMT +2)</small>
                         </span>
                     </p>
                 </li>
@@ -94,13 +94,14 @@
                 </li>
 
                 <li class="my-1 sm:w-1/2 md:w-1/3">
-                    <a class="group inline-flex items-center" href="https://twitter.com/michaelnabil230" target="_blank">
-                        <svg class="h-5 fill-current text-blue-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+                    <a class="group inline-flex items-center" href="mailto:michael.nabil230@gmail.com" target="_blank">
+                        <svg class="h-5 fill-current text-blue-500" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512">
                             <path
-                                d="M46.64 12.88a1.001 1.001 0 00-.4-1.74l-1.58-.4a1 1 0 01-.66-1.4l.88-1.78c.24-.498.03-1.096-.466-1.336a1.002 1.002 0 00-.694-.064l-4 1.12a1.003 1.003 0 01-.88-.16 9.999 9.999 0 00-6-2c-5.522 0-10 4.478-10 10v.72a.5.5 0 01-.44.5c-5.62.66-11-2.2-16.8-8.88-.256-.284-.65-.4-1.02-.3A1 1 0 004 8a15.15 15.15 0 00.92 9.84.5.5 0 01-.52.72l-2.24-.44a1 1 0 00-1.14 1.18 10.3 10.3 0 004.74 7.56.5.5 0 010 .9l-1.06.42a1 1 0 00-.52 1.38 8.718 8.718 0 006.4 4.96.5.5 0 010 .94A21.883 21.883 0 012 37.12a1.02 1.02 0 00-.4 2 40.126 40.126 0 0016.28 3.86 25.158 25.158 0 0014-4A25 25 0 0043 18.12v-1.74a.998.998 0 01.36-.76l3.28-2.74z" />
+                                d="M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V176L217.6 339.2z" />
                         </svg>
                         <span class="ml-2 border-b border-dotted border-transparent group-hover:border-blue-500">
-                            @michaelnabil230
+                            michael.nabil230@gmail.com
                         </span>
                     </a>
                 </li>
@@ -386,5 +387,9 @@
                 </div>
             </div>
         </div> --}}
+        <hr class="mt-6 border-gray-300" />
+        <p class="mt-6 text-xs text-gray-500">
+            Updated at {{ date('d/m/Y') }}
+        </p>
     </div>
 @endsection
