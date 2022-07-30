@@ -77,11 +77,6 @@
                             This website is open source
                         </a>.
                         Proudly built with
-                        <a href="http://jigsaw.tighten.co" target="_blank by Tighten"
-                            class="font-bold hover:text-blue-700 focus:text-blue-700">
-                            Jigsaw
-                        </a>
-                        and hosted with
                         <a href="https://tailwindcss.com" target="_blank"
                             class="font-bold hover:text-blue-700 focus:text-blue-700">
                             Tailwind CSS

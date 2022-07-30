@@ -126,6 +126,7 @@
         <h2 class="mt-6 text-xl uppercase tracking-wide">Expertise</h2>
 
         <div class="mt-6">
+            {{-- (https://worldvectorlogo.com) for icons --}}
             <ul class="-m-1 flex flex-wrap text-sm sm:text-base">
                 <li class="m-1 px-3 py-1 inline-flex items-center bg-blue-100 text-blue-800 rounded">
                     <img class="inline w-4 h-4" src="{{ asset('images/cv/laravel.svg') }}" alt="laravel icon">
@@ -215,6 +216,11 @@
                 <li class="m-1 px-3 py-1 inline-flex items-center bg-blue-100 text-blue-800 rounded">
                     <img class="inline w-4 h-4" src="{{ asset('images/cv/kubernets.svg') }}" alt="kubernets icon">
                     <span class="ml-1">Kubernets</span>
+                </li>
+
+                <li class="m-1 px-3 py-1 inline-flex items-center bg-blue-100 text-blue-800 rounded">
+                    <img class="inline w-4 h-4" src="{{ asset('images/cv/graphql.svg') }}" alt="Qraphql icon">
+                    <span class="ml-1">Qraphql</span>
                 </li>
 
                 <li class="m-1 px-3 py-1 inline-flex items-center bg-blue-100 text-blue-800 rounded">APIs</li>
