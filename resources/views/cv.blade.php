@@ -257,7 +257,7 @@
             </div>
 
             <div class="mt-2 sm:mt-0 sm:ml-6">
-                <p class="text-lg font-bold">Team Leader Developer</p>
+                <p class="text-lg font-bold">CEO And Team Leader Developer</p>
                 <p>
                     <a class="text-blue-700 font-semibold" href="https://shaghf.sa" target="_blank">
                         Shaghf.sa
@@ -292,8 +292,8 @@
             <div class="mt-2 sm:mt-0 sm:ml-6">
                 <p class="text-lg font-bold">Senior Web Developer</p>
                 <p>
-                    <a class="text-blue-700 font-semibold" href="https://m6twer.com" target="_blank">
-                        M6twer.com
+                    <a class="text-blue-700 font-semibold" href="https://m6wer.com" target="_blank">
+                        M6wer.com
                     </a>
                 </p>
                 <ul class="mt-3 pl-4 list-disc">
@@ -334,9 +334,24 @@
             </div>
         </div>
 
-        {{-- <hr class="mt-6 border-gray-300" />
+        <hr class="mt-6 border-gray-300" />
 
-        <h2 class="mt-6 text-xl uppercase tracking-wide">Awards</h2>
+        {{-- <h2 class="mt-6 text-xl uppercase tracking-wide">Spacial work</h2>
+
+        <div class="mt-6">
+            <div class="ml-4">
+                <div class="font-bold">An application for the Saudi Communications Commission</div>
+                <div class="text-sm">2022</div>
+                <p class="mt-2">
+                    The application for employee attendance and departure. 
+                    for determining whether the location is inside the office or not.
+                </p>
+            </div>
+        </div>
+
+        <hr class="mt-6 border-gray-300" /> --}}
+
+        <h2 class="mt-6 text-xl uppercase tracking-wide">Certificates</h2>
 
         <div class="mt-6">
             <div class="flex">
@@ -347,8 +362,8 @@
                 </svg>
 
                 <div class="ml-4">
-                    <div class="font-bold">Excellence Award</div>
-                    <div class="text-sm">2018 &bullet; Infoxchange</div>
+                    <div class="font-bold">IQ Test</div>
+                    <div class="text-sm">2022</div>
                 </div>
             </div>
 
@@ -360,9 +375,11 @@
                 </svg>
 
                 <div class="ml-4">
-                    <div class="font-bold">"The Laravel Queen" Award</div>
-                    <div class="text-sm">2017 &bullet; Infoxchange</div>
-                    <p class="mt-2">Awarded for my passion of the Laravel framework.</p>
+                    <div class="font-bold">El Madina High Institute for management and technology</div>
+                    <div class="text-sm">2022 &mdash; 2018</div>
+                    <p class="mt-2">
+                        Information systems section with grad good.
+                    </p>
                 </div>
             </div>
 
@@ -374,25 +391,15 @@
                 </svg>
 
                 <div class="ml-4">
-                    <div class="font-bold">"The Honourable Constable" Award</div>
-                    <div class="text-sm">2016 &bullet; Infoxchange</div>
-                    <p class="mt-2">Awarded for my work on the Queensland Police Referral System.</p>
+                    <div class="font-bold">Don Bosco</div>
+                    <div class="text-sm">2018 &mdash; 2017</div>
+                    <p class="mt-2">
+                        Diploma of industrial technician for three years, 
+                        Department of Electricity from the institute of salzian.
+                    </p>
                 </div>
             </div>
-
-            <div class="mt-6 flex">
-                <svg class="mt-1 flex-shrink-0 h-8 w-8 fill-current text-gray-400" xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 48 48">
-                    <path
-                        d="M13.05 20.27l6.226-.358 2.384 6.046a2.52 2.52 0 002.5 1.6 2.56 2.56 0 002.362-1.894l2-7.154 7.152-2a2.557 2.557 0 001.896-2.36 2.514 2.514 0 00-1.6-2.502l-6.058-2.374.36-6.276A2.52 2.52 0 0028.75.624a2.46 2.46 0 00-2.73.576l-3.772 3.77-6.612-2.628-.06-.024a2.588 2.588 0 00-3.236 3.318l2.626 6.616-3.766 3.77a2.462 2.462 0 00-.58 2.722 2.544 2.544 0 002.4 1.526h.03zm1.518 19.298c-1.656 0-3 1.344-3 3v4a1 1 0 001 1h24a1 1 0 001-1v-4c0-1.656-1.344-3-3-3h-20zm18-3a1 1 0 001-1v-3a3.694 3.694 0 00-2.696-3.454l-6.06-1.516a.953.953 0 00-.486 0l-6.058 1.514a3.698 3.698 0 00-2.7 3.456v3a1 1 0 001 1h16z" />
-                </svg>
-
-                <div class="ml-4">
-                    <div class="font-bold">"Best Newcomer" Award</div>
-                    <div class="text-sm">2015 &bullet; Infoxchange</div>
-                </div>
-            </div>
-        </div> --}}
+        </div>
         <hr class="mt-6 border-gray-300" />
         <p class="mt-6 text-xs text-gray-500">
             Updated at {{ date('d/m/Y') }}
