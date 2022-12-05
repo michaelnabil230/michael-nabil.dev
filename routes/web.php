@@ -16,9 +16,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::view('/', 'index')->name('welcome');
+Route::view('/about', 'about')->name('about');
 Route::view('/contact', 'contact.index')->name('contact');
 Route::post('/contact', ContactController::class)->name('contact.store');
-Route::view('/contact/thanks', 'contact.thanks')->name('contact.thanks');
 Route::view('/cv', 'cv')->name('cv');
 Route::resource('/articles', ArticleController::class)->only(['index', 'show']);
 Route::fallback(fn () => view('404'));

@@ -1,30 +1,30 @@
-@title('Articles - ' . $article->title)
+<x-app-layout title="Articles - {{ $article->title }}">
+    <div class="flex flex-col justify-between min-h-screen">
+        <main class="mt-6 flex-auto w-full max-w-4xl mx-auto px-6">
+            @if ($article->cover_image)
+                <img src="{{ $article->cover_image }}" alt="{{ $article->title }} cover image" class="mb-8">
+            @endif
 
-@extends('_layouts.app')
+            <p class="text-gray-600 font-bold uppercase tracking-wide">
+                {{ date('F j, Y', $article->date) }}
+            </p>
 
-@section('main')
-    @if ($article->cover_image)
-        <img src="{{ $article->cover_image }}" alt="{{ $article->title }} cover image" class="mb-8">
-    @endif
+            <h1 class="mt-3 text-3xl font-bold text-gray-900 leading-tight">
+                {{ $article->title }}
+            </h1>
 
-    <p class="text-gray-600 font-bold uppercase tracking-wide">
-        {{ date('F j, Y', $article->date) }}
-    </p>
+            @if ($article->categories)
+                @foreach ($article->categories as $i => $category)
+                    <a href="/articles/categories/{{ $category }}" title="View posts in {{ $category }}"
+                        class="inline-block bg-grey-light hover:bg-blue-lighter leading-loose tracking-wide text-grey-darkest uppercase text-xs font-semibold rounded mr-4 px-3 pt-px">
+                        {{ $category }}
+                    </a>
+                @endforeach
+            @endif
 
-    <h1 class="mt-3 text-3xl font-bold text-gray-900 leading-tight">
-        {{ $article->title }}
-    </h1>
-
-    @if ($article->categories)
-        @foreach ($article->categories as $i => $category)
-            <a href="/articles/categories/{{ $category }}" title="View posts in {{ $category }}"
-                class="inline-block bg-grey-light hover:bg-blue-lighter leading-loose tracking-wide text-grey-darkest uppercase text-xs font-semibold rounded mr-4 px-3 pt-px">
-                {{ $category }}
-            </a>
-        @endforeach
-    @endif
-
-    <div class="mt-4 markdown" x-init="$nextTick(function() { highlightCode($el); })">
-        {!! $article->content !!}
+            <div class="mt-4 markdown" x-init="$nextTick(function() { highlightCode($el); })">
+                {!! $article->content !!}
+            </div>
+        </main>
     </div>
-@endsection
+</x-app-layout>

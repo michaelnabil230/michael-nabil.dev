@@ -11,6 +11,6 @@ class ContactController
     {
         Contact::create($request->validated());
 
-        return to_route('contact.thanks');
+        return view('contact.thanks');
     }
 }

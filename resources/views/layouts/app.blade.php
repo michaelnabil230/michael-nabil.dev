@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="description" content="{{ $description ?? '' }}">
+    <meta name="description" content="{{ $attributes['description'] ?? 'Full-stack Laravel developer' }}">
     <title>
-        {{ isset($title) ? $title . ' | ' : '' }}
-        {{ config('app.name') }}
+        {{ isset($attributes['title']) ? $attributes['title'] . ' | ' : '' }}
+        {{ config('app.name', 'Laravel') }}
     </title>
     <link rel="icon" href="/favicon.ico">
     <link href="/articles/feed.atom" type="application/atom+xml" rel="alternate"
@@ -34,15 +34,34 @@
 
     @stack('meta')
 
-    @vite('resources/css/app.css')
+    @vite(['resources/js/app.js', 'resources/css/app.css'])
+
+    <script>
+        const setDarkClass = () => {
+            if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia(
+                    '(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.classList.add('dark')
+            } else {
+                document.documentElement.classList.remove('dark')
+            }
+        }
+        setDarkClass()
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', setDarkClass)
+    </script>
 </head>
 
-<body class="font-sans leading-normal text-gray-700 bg-gray-100 print:bg-white min-h-screen">
-    @yield('body')
+<body
+    class="font-sans min-h-screen flex flex-col bg-gray-100 dark:bg-gray-900 selection:bg-indigo-500 selection:text-white"
+    x-data="{ menu: false }" x-init="$watch('menu', value => value ?
+        document.body.classList.add('overflow-hidden') :
+        document.body.classList.remove('overflow-hidden')
+    )">
 
-    @vite('resources/js/app.js')
+    @include('_components.header')
 
-    @stack('scripts')
+    {{ $slot }}
+
+    @include('_components.footer')
 </body>
 
 </html>
