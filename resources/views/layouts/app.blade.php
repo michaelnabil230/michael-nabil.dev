@@ -51,7 +51,7 @@
 </head>
 
 <body
-    class="font-sans min-h-screen flex flex-col bg-gray-100 dark:bg-gray-900 selection:bg-indigo-500 selection:text-white"
+    class="font-sans min-h-screen flex flex-col bg-gray-100 print:bg-white dark:bg-gray-900 selection:bg-indigo-500 selection:text-white"
     x-data="{ menu: false }" x-init="$watch('menu', value => value ?
         document.body.classList.add('overflow-hidden') :
         document.body.classList.remove('overflow-hidden')

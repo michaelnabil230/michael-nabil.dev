@@ -260,7 +260,7 @@
                     sm:h-24 sm:w-20 sm:p-0 sm:flex-shrink-0 sm:flex sm:items-center sm:justify-center sm:text-lg
                 ">
                 <div>
-                    <span class="inline sm:block">now</span>
+                    <span class="inline sm:block">2023</span>
                     <span class="hidden sm:inline">|</span>
                     <span class="sm:hidden">&mdash;</span>
                     <span class="inline sm:block">2021</span>
@@ -391,7 +391,7 @@
                     <div class="font-bold">El Madina High Institute for management and technology</div>
                     <div class="text-sm">2022 &mdash; 2018</div>
                     <p class="mt-2">
-                        Information systems section with grad good.
+                        Information systems section with grade good.
                     </p>
                 </div>
             </div>
