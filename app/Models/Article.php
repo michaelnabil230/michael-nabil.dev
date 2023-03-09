@@ -67,8 +67,6 @@ class Article extends Model implements HasMedia
 
     /**
      * The categories that belong to the Article
-     *
-     * @return BelongsToMany
      */
     public function categories(): BelongsToMany
     {

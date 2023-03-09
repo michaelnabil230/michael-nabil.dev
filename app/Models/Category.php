@@ -32,8 +32,6 @@ class Category extends Model
 
     /**
      * The articles that belong to the Category
-     *
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
      */
     public function articles(): BelongsToMany
     {
